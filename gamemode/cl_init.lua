@@ -5,9 +5,17 @@ local include = include
 local file = file
 
 include("shared.lua")
+include("diaspora.lua")
 
 include("vgui/cl_init.lua")
 include("sb/cl_init.lua")
+
+
+function GM:ForceDermaSkin()
+
+	return "Diaspora"
+	
+end
 
 --[[
 local gamemodeDir = string.Explode("/",debug.getinfo(1).source, false)[2]

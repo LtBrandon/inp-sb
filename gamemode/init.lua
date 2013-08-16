@@ -12,6 +12,7 @@ local GM = GM
 -- Send things to the client
 AddCSLuaFile("shared.lua")
 AddCSLuaFile("cl_init.lua")
+AddCSLuaFile("diaspora.lua")
 
 -- Send things to the client
 include("send.lua")
